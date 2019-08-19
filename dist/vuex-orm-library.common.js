@@ -7456,7 +7456,7 @@ function (_Model) {
     key: "fields",
     value: function fields() {
       return {
-        id: this.increment()
+        id: this.increment
       };
     }
   }]);
