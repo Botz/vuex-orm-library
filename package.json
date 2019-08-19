@@ -20,6 +20,13 @@
     "eslint-plugin-vue": "^5.0.0",
     "vue-template-compiler": "^2.6.10"
   },
+  "main": "./dist/vuex-orm-library.js",
+  "files": [
+    "dist/*.js",
+    "dist/*.css",
+    "!*.map",
+    "!**/.DS_Store"
+  ],
   "eslintConfig": {
     "root": true,
     "env": {
